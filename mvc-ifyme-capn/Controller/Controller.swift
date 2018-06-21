@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Controller.swift
 //  mvc-ifyme-capn
 //
 //  Created by John Green on -06-202018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Controller: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
