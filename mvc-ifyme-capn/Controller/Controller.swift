@@ -13,6 +13,9 @@ class Controller: UIViewController {
     @IBOutlet weak var iPhoneNameLabel: UILabel!
     @IBOutlet weak var iPhoneColorLabel: UILabel!
     @IBOutlet weak var iPhonePriceLabel: UILabel!
+    @IBOutlet weak var samsungNameLabel: UILabel!
+    @IBOutlet weak var samsungColorLabel: UILabel!
+    @IBOutlet weak var samsungPriceLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -24,6 +27,13 @@ class Controller: UIViewController {
         iPhoneNameLabel.text = appleProduct.name
         iPhoneColorLabel.text = "in " + "\(appleProduct.color)"   //concatention works as well
         iPhonePriceLabel.text = "$\(appleProduct.price)"
+        
+        let samsungProduct = SamsungProduct(name: "Galaxy 10", color: "Silver", price: 799.99)
+        
+        samsungNameLabel.text = samsungProduct.name
+        samsungColorLabel.text = "in " + "\(samsungProduct.color)"   //concatention works as well
+        samsungPriceLabel.text = "$\(samsungProduct.price)"
+
 
     }
 

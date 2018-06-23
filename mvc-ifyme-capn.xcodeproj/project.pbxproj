@@ -12,6 +12,8 @@
 		7310716420DB5A3C00121847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7310716220DB5A3C00121847 /* Main.storyboard */; };
 		7310716620DB5A3D00121847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7310716520DB5A3D00121847 /* Assets.xcassets */; };
 		7310716920DB5A3D00121847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7310716720DB5A3D00121847 /* LaunchScreen.storyboard */; };
+		73623B4D20DDCE7B00556976 /* SamsungProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73623B4C20DDCE7B00556976 /* SamsungProduct.swift */; };
+		73623B4F20DDCFF700556976 /* CustomView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73623B4E20DDCFF700556976 /* CustomView2.swift */; };
 		73DD082E20DB6113007B1980 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD082D20DB6113007B1980 /* AppleProduct.swift */; };
 		73F4846020DC89DD002510AA /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F4845F20DC89DD002510AA /* CustomPrettyView.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		7310716520DB5A3D00121847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7310716820DB5A3D00121847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7310716A20DB5A3D00121847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73623B4C20DDCE7B00556976 /* SamsungProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungProduct.swift; sourceTree = "<group>"; };
+		73623B4E20DDCFF700556976 /* CustomView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView2.swift; sourceTree = "<group>"; };
 		73DD082D20DB6113007B1980 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
 		73F4845F20DC89DD002510AA /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				73F4845F20DC89DD002510AA /* CustomPrettyView.swift */,
+				73623B4E20DDCFF700556976 /* CustomView2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				73DD082D20DB6113007B1980 /* AppleProduct.swift */,
+				73623B4C20DDCE7B00556976 /* SamsungProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73623B4D20DDCE7B00556976 /* SamsungProduct.swift in Sources */,
 				73DD082E20DB6113007B1980 /* AppleProduct.swift in Sources */,
+				73623B4F20DDCFF700556976 /* CustomView2.swift in Sources */,
 				7310716120DB5A3C00121847 /* Controller.swift in Sources */,
 				7310715F20DB5A3C00121847 /* AppDelegate.swift in Sources */,
 				73F4846020DC89DD002510AA /* CustomPrettyView.swift in Sources */,

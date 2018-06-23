@@ -19,37 +19,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uc3-d5-bA5" customClass="CustomPrettyView" customModule="mvc_ifyme_capn" customModuleProvider="target">
-                                <rect key="frame" x="62" y="183" width="250" height="300"/>
+                                <rect key="frame" x="62" y="70" width="250" height="200"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1Hi-BY-qrA">
-                                        <rect key="frame" x="20" y="20" width="210" height="260"/>
+                                        <rect key="frame" x="20" y="20" width="210" height="160"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I really want the" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfw-c5-Xch">
-                                                <rect key="frame" x="0.0" y="0.0" width="210" height="52"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="210" height="32"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IPHONE MODEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdK-zI-d39">
-                                                <rect key="frame" x="0.0" y="52" width="210" height="52"/>
+                                                <rect key="frame" x="0.0" y="32" width="210" height="32"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in IPHONE COLOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju3-mS-Uad">
-                                                <rect key="frame" x="0.0" y="104" width="210" height="52"/>
+                                                <rect key="frame" x="0.0" y="64" width="210" height="32"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and it costs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4c-8Q-4Ss">
-                                                <rect key="frame" x="0.0" y="156" width="210" height="52"/>
+                                                <rect key="frame" x="0.0" y="96" width="210" height="32"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$IPHONE PRICE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNf-aq-Fh8">
-                                                <rect key="frame" x="0.0" y="208" width="210" height="52"/>
+                                                <rect key="frame" x="0.0" y="128" width="210" height="32"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -59,19 +59,70 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="1Hi-BY-qrA" secondAttribute="bottom" constant="20" id="5A9-n9-P8I"/>
-                                    <constraint firstAttribute="height" constant="300" id="NIU-6D-X6r"/>
-                                    <constraint firstItem="1Hi-BY-qrA" firstAttribute="leading" secondItem="uc3-d5-bA5" secondAttribute="leading" constant="20" id="Pqw-iv-Sv3"/>
-                                    <constraint firstItem="1Hi-BY-qrA" firstAttribute="top" secondItem="uc3-d5-bA5" secondAttribute="top" constant="20" id="bCA-qc-Kdy"/>
+                                    <constraint firstAttribute="height" constant="200" id="NIU-6D-X6r"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Hi-BY-qrA" secondAttribute="trailing" constant="20" id="Rsi-8M-Wq4"/>
                                     <constraint firstAttribute="width" constant="250" id="bhT-uB-SLU"/>
-                                    <constraint firstAttribute="trailing" secondItem="1Hi-BY-qrA" secondAttribute="trailing" constant="20" id="fCa-GY-tBI"/>
+                                    <constraint firstItem="1Hi-BY-qrA" firstAttribute="leading" secondItem="uc3-d5-bA5" secondAttribute="leading" constant="20" id="qA6-ol-yc8"/>
+                                    <constraint firstItem="1Hi-BY-qrA" firstAttribute="top" secondItem="uc3-d5-bA5" secondAttribute="top" constant="20" id="w9H-N3-VwS"/>
+                                    <constraint firstAttribute="bottom" secondItem="1Hi-BY-qrA" secondAttribute="bottom" constant="20" id="wl2-4f-1Tz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZvW-hY-pOx" customClass="CustomView2" customModule="mvc_ifyme_capn" customModuleProvider="target">
+                                <rect key="frame" x="62" y="370" width="250" height="200"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZdA-G8-Ym4">
+                                        <rect key="frame" x="20" y="20" width="210" height="160"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'd settle for a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAu-1h-NiP">
+                                                <rect key="frame" x="0.0" y="0.0" width="210" height="32"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAMSUNG MODEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXQ-hH-INP">
+                                                <rect key="frame" x="0.0" y="32" width="210" height="32"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in SAMSUNG COLOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Nu-c4-2V0">
+                                                <rect key="frame" x="0.0" y="64" width="210" height="32"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and it only costs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qi1-pR-owk">
+                                                <rect key="frame" x="0.0" y="96" width="210" height="32"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$SAMSUNG PRICE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJC-Q7-U7Z">
+                                                <rect key="frame" x="0.0" y="128" width="210" height="32"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ZdA-G8-Ym4" secondAttribute="bottom" constant="20" id="SFX-Rt-eA6"/>
+                                    <constraint firstAttribute="width" constant="250" id="UGE-hZ-kSv"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZdA-G8-Ym4" secondAttribute="trailing" constant="20" id="fiO-eZ-R6S"/>
+                                    <constraint firstItem="ZdA-G8-Ym4" firstAttribute="leading" secondItem="ZvW-hY-pOx" secondAttribute="leading" constant="20" id="hnC-gU-bPh"/>
+                                    <constraint firstItem="ZdA-G8-Ym4" firstAttribute="top" secondItem="ZvW-hY-pOx" secondAttribute="top" constant="20" id="t5S-oV-ecS"/>
+                                    <constraint firstAttribute="height" constant="200" id="u0A-aZ-UZX"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ZvW-hY-pOx" firstAttribute="top" secondItem="uc3-d5-bA5" secondAttribute="bottom" constant="100" id="2CD-8R-9nb"/>
                             <constraint firstItem="uc3-d5-bA5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4dE-kC-WIM"/>
-                            <constraint firstItem="uc3-d5-bA5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="511-Ld-Y5W"/>
+                            <constraint firstItem="ZvW-hY-pOx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N2p-uo-Yh7"/>
+                            <constraint firstItem="uc3-d5-bA5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="TYd-sk-xOu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -79,6 +130,9 @@
                         <outlet property="iPhoneColorLabel" destination="ju3-mS-Uad" id="syU-AQ-T1b"/>
                         <outlet property="iPhoneNameLabel" destination="JdK-zI-d39" id="tWv-1d-cMp"/>
                         <outlet property="iPhonePriceLabel" destination="fNf-aq-Fh8" id="NvH-9D-6Zc"/>
+                        <outlet property="samsungColorLabel" destination="7Nu-c4-2V0" id="fb6-Av-azS"/>
+                        <outlet property="samsungNameLabel" destination="lXQ-hH-INP" id="Y6x-KR-T1X"/>
+                        <outlet property="samsungPriceLabel" destination="WJC-Q7-U7Z" id="w8I-A0-HmZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
